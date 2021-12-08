@@ -17,7 +17,8 @@ public class Ejemplo01 {
             System.out.printf("%d\n", i);
 
             for (int j = 1; j <= 3; j++) {
-                System.out.printf("%d ", j);
+                int operacion2 = i*j;
+                System.out.printf("%d ", operacion2);
             }
             System.out.printf("\n-------------\n");
         }
